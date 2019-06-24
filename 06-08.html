@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 연습</title>
+    <style>
+        tr {
+            border : 1px solid blue;
+            border-width: 1px;
+            border-color: blue;
+            border-style: dashed;
+        }
+        tr:first-child {
+            background: blue;
+        }
+        tr:nth-of-type(2) {
+            background: gray;
+        }
+        /*
+        td:nth-of-type(2n) {
+            background: green;
+        }
+
+        td:nth-child(1) {
+            background: red;
+        }
+
+        td:nth-of-type(5) {
+            background: blue;
+        }
+        */
+    </style>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <td>제목1</td>
+            <td>제목2</td>
+            <td>제목3</td>
+            <td>제목1</td>
+            <td>제목2</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 연습</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+
+        #top {
+            position: relative;
+            background-color: red;
+            left: -15px;
+        }
+
+        #center {
+            position: absolute;
+            background-color: green;
+            top: 50px;
+            left: 20px;
+        }
+
+        #bottom {
+            position: static;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top">
+        top
+    </div>
+    
+    <div id="parent" style="position:relative;overflow:scroll">
+        <div id="center">
+            center
+        </div>
+    </div>
+    
+    <div id="bottom">
+        bottom
+    </div>
+</body>
+</html>

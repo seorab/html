@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 연습</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            display: inline-block;
+        }
+
+        #top {
+            background-color: red;
+            left:20px;
+            top: 0px;
+            z-index: 3;
+        }
+
+        #center {
+            background-color: green;
+            left: 50px;
+            top: 50px;
+            z-index: 2;
+        }
+
+        #bottom {
+            background-color: blue;
+            left: 100px;
+            top: 100px;
+            z-index: 1;
+        }
+
+        section {
+            width: 150px;
+            height: 150px;
+            border: 1px double black;
+            overflow: auto;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <a href=''>
+            <div id="top">
+                top
+            </div>
+        </a>
+        <div id="center">
+            center
+        </div>
+        <div id="bottom">
+            bottom
+        </div>
+    </section>
+</body>
+</html>
